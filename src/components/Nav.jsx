@@ -2,7 +2,6 @@ import { headerLogo } from "../assets/images"
 import { hamburger } from "../assets/icons"
 import { navLinks } from "../constant"
 const Nav = () => {
-    console.log(navLinks)
   return (
     <header className="padding-x py-2 absolute z-10 w-full">
         <nav className="flex justify-between items-center max-container">

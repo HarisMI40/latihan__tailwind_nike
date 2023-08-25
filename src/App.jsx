@@ -10,12 +10,9 @@ function App() {
 
   return (
 
-    <div className={`${dark && "dark"} space-y-10`}>
+    <div className={`${dark ? "dark" : ""} relative`}>
       <Nav />
-     <section className="xl:padding-1 wide:padding-r padding-b"
-     >  
-        <Hero />
-     </section>
+     <section className="xl:padding-l wide:padding-r padding-b"><Hero /></section>
      <section className="padding text-black dark-theme"><PopularProduct/></section>
      <section className="padding dark-theme"><SuperQuality /></section>
      <section className="padding"><Services /></section>
